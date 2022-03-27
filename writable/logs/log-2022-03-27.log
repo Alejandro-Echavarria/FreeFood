@@ -1,0 +1,7 @@
+CRITICAL - 2022-03-27 10:33:25 --> Undefined property: App\Controllers\Residentes::$tabla
+#0 C:\laragon\www\FreeFood\app\Controllers\Residentes.php(224): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\laragon\\www\\...', 224, Array)
+#1 C:\laragon\www\FreeFood\system\CodeIgniter.php(832): App\Controllers\Residentes->delete()
+#2 C:\laragon\www\FreeFood\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Residentes))
+#3 C:\laragon\www\FreeFood\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\FreeFood\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}

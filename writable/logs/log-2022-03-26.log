@@ -1,0 +1,74 @@
+CRITICAL - 2022-03-26 10:13:49 --> Undefined index: id_almacen
+#0 C:\laragon\www\FreeFood\app\Controllers\Residentes.php(67): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\laragon\\www\\...', 67, Array)
+#1 C:\laragon\www\FreeFood\system\CodeIgniter.php(832): App\Controllers\Residentes->get()
+#2 C:\laragon\www\FreeFood\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Residentes))
+#3 C:\laragon\www\FreeFood\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\FreeFood\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-26 10:13:59 --> Undefined index: id_almacen
+#0 C:\laragon\www\FreeFood\app\Controllers\Residentes.php(67): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\laragon\\www\\...', 67, Array)
+#1 C:\laragon\www\FreeFood\system\CodeIgniter.php(832): App\Controllers\Residentes->get()
+#2 C:\laragon\www\FreeFood\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Residentes))
+#3 C:\laragon\www\FreeFood\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\FreeFood\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-26 10:14:10 --> Undefined index: id_almacen
+#0 C:\laragon\www\FreeFood\app\Controllers\Residentes.php(67): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\laragon\\www\\...', 67, Array)
+#1 C:\laragon\www\FreeFood\system\CodeIgniter.php(832): App\Controllers\Residentes->get()
+#2 C:\laragon\www\FreeFood\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Residentes))
+#3 C:\laragon\www\FreeFood\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\FreeFood\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-26 10:14:13 --> Undefined index: id_almacen
+#0 C:\laragon\www\FreeFood\app\Controllers\Residentes.php(67): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\laragon\\www\\...', 67, Array)
+#1 C:\laragon\www\FreeFood\system\CodeIgniter.php(832): App\Controllers\Residentes->get()
+#2 C:\laragon\www\FreeFood\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Residentes))
+#3 C:\laragon\www\FreeFood\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\FreeFood\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-26 20:02:32 --> Call to undefined method App\Models\ResidentesModel::validarExistencia
+#0 C:\laragon\www\FreeFood\app\Controllers\Residentes.php(91): CodeIgniter\Model->__call('validarExistenc...', Array)
+#1 C:\laragon\www\FreeFood\system\CodeIgniter.php(832): App\Controllers\Residentes->post()
+#2 C:\laragon\www\FreeFood\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Residentes))
+#3 C:\laragon\www\FreeFood\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\FreeFood\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-26 20:03:33 --> Call to undefined method App\Models\ResidentesModel::validarExistencia
+#0 C:\laragon\www\FreeFood\app\Controllers\Residentes.php(91): CodeIgniter\Model->__call('validarExistenc...', Array)
+#1 C:\laragon\www\FreeFood\system\CodeIgniter.php(832): App\Controllers\Residentes->post()
+#2 C:\laragon\www\FreeFood\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Residentes))
+#3 C:\laragon\www\FreeFood\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\FreeFood\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-26 20:04:42 --> Call to undefined method App\Models\ResidentesModel::validarExistencia
+#0 C:\laragon\www\FreeFood\app\Controllers\Residentes.php(91): CodeIgniter\Model->__call('validarExistenc...', Array)
+#1 C:\laragon\www\FreeFood\system\CodeIgniter.php(832): App\Controllers\Residentes->post()
+#2 C:\laragon\www\FreeFood\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Residentes))
+#3 C:\laragon\www\FreeFood\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\FreeFood\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-03-26 20:15:36 --> Unknown column 'email_residente' in 'where clause'
+CRITICAL - 2022-03-26 20:15:36 --> Unknown column 'email_residente' in 'where clause'
+#0 C:\laragon\www\FreeFood\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `residen...', 0)
+#1 C:\laragon\www\FreeFood\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `residen...')
+#2 C:\laragon\www\FreeFood\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `residen...')
+#3 C:\laragon\www\FreeFood\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `residen...', Array, false)
+#4 C:\laragon\www\FreeFood\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\FreeFood\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\laragon\www\FreeFood\app\Models\ResidentesModel.php(62): CodeIgniter\BaseModel->findAll()
+#7 C:\laragon\www\FreeFood\app\Controllers\Residentes.php(92): App\Models\ResidentesModel->validarExistencia(0, 'a@gmail.com')
+#8 C:\laragon\www\FreeFood\system\CodeIgniter.php(832): App\Controllers\Residentes->post()
+#9 C:\laragon\www\FreeFood\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Residentes))
+#10 C:\laragon\www\FreeFood\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\laragon\www\FreeFood\index.php(44): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2022-03-26 20:16:32 --> There is no data to insert.
+#0 C:\laragon\www\FreeFood\system\BaseModel.php(718): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+#1 C:\laragon\www\FreeFood\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, false)
+#2 C:\laragon\www\FreeFood\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#3 C:\laragon\www\FreeFood\app\Controllers\Residentes.php(107): CodeIgniter\BaseModel->save(Array)
+#4 C:\laragon\www\FreeFood\system\CodeIgniter.php(832): App\Controllers\Residentes->post()
+#5 C:\laragon\www\FreeFood\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Residentes))
+#6 C:\laragon\www\FreeFood\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\FreeFood\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
