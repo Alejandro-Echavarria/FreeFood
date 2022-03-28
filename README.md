@@ -28,6 +28,7 @@ Como resultado esta cumple con todo lo solicitado por el equipo de reclutamiento
 
 Pasos a seguir:
 - Lo primero que debemos hacer es poner la carpeta del proyecto dentro de las carpetas del servidor (XAMPP, laragon, etc).
+- Luego debemos crear la base de datos, esta con el nombre de **bd_freefood** y con el server collation **utf8_general_ci**.
 - Importar la base de datos a nuestra SGBD, esta se encuentra dentro del proyecto con el nombre `bd_freefood.sql`.
 - Una vez configurada la base de datos, nos dirigimos a nuestro archivo .env (Dentro del proyecto) y ponemos las credenciales de nuestro usuario de la base de datos, por defecto está el usuario **root** sin contraseña, en caso de tener otro usuario deberán configurarlo ahí, además está configurado para un SGBD MySQL, como phpMyAdmin, heidyDB, etc.
 
