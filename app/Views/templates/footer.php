@@ -12,8 +12,6 @@
 	<script src="<?= base_url(); ?>/plugins/datatables-bs4/js/dataTables.bootstrap4.min.js"></script>
 	<script src="<?= base_url(); ?>/plugins/datatables-responsive/js/dataTables.responsive.min.js"></script>
 	<script src="<?= base_url(); ?>/plugins/datatables-responsive/js/responsive.bootstrap4.min.js"></script>
-    <!-- ChartJS -->
-    <script src="<?= base_url(); ?>/plugins/chart.js/Chart.min.js"></script>
     <!-- Sweetalert2 -->
     <script src="<?= base_url(); ?>/plugins/sweetalert2/sweetalert2.all.min.js"></script>
     <!-- scripts select picker -->
