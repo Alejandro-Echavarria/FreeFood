@@ -79,10 +79,12 @@
                 }else{
                     $arrResponse = array('status' => true, 'data' => $arrData);
                 }
+                header('Content-Type: application/json');
                 echo json_encode($arrResponse, JSON_UNESCAPED_UNICODE);
                 die();  
             }
 
+            header('Content-Type: application/json');
             echo json_encode($arrData, JSON_UNESCAPED_UNICODE);
             die();  
         }
@@ -107,11 +109,10 @@
                 $arrResponse = 'En caso de aparecer este mensaje, consultar con el administrador';
                 $requestData = 0;
 
-                if (empty($strNombres || $strApellidos || $intEdad || $intTelefono ||
-                          $strCorreo || $strDireccion || $strObservacion)) {
+                // if (empty($strNombres )) {
                     
-                    $arrResponse = array("status" => false, "msg" => 'Datos incorrectos');
-                }else{
+                //     $arrResponse = array("status" => false, "msg" => 'Datos incorrectos');
+                // }else{
 
                     $requestExistencia = $this->tablaResidentes->validarExistencia($id,$strCorreo);
                     
@@ -146,7 +147,8 @@
                         $arrResponse = array("status" => false, "msg" => '¡Atención! este correo ya existe');
                     }
                 }
-            }
+            //}
+            header('Content-Type: application/json');
             echo json_encode($arrResponse,JSON_UNESCAPED_UNICODE);
             die();
         }
@@ -212,6 +214,7 @@
                     }
                 }
             }
+            header('Content-Type: application/json');
             echo json_encode($arrResponse,JSON_UNESCAPED_UNICODE);
             die();
         }
@@ -239,6 +242,7 @@
                         $arrResponse = array('status' => false, 'msg' => 'Error al eliminar el residente');
                     }     
                 }
+                header('Content-Type: application/json');
                 echo json_encode($arrResponse,JSON_UNESCAPED_UNICODE);
             }
             die();

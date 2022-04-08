@@ -58,13 +58,16 @@ Pasos a seguir:
 ## URL de acciones
 
 **post** este nos permite crear un nuevo registro para poderla implementar seria de la siguiente forma (con datos de ejemplo):
-- http://localhost/FreeFood/Residentes/post?idResidente=&txtNombres=prueba&txtApellidos=prueba&intEdad=12&intTelefono=8099051413&txtCorreo=m.alejandro%40gmail.com&txtDireccion=prueba&txtObservacion=prueba+&listStatus=1 
+- http://localhost/FreeFood/Residentes/post
+- Los datos deben ser enviados en formato formData.
 
 **put** este nos permite modificar un registro, para poderla implementar seria de la siguiente forma (con datos de ejemplo):
-- http://localhost/FreeFood/Residentes/put?idResidente=1&txtNombres=prueba&txtApellidos=prueba&intEdad=12&intTelefono=8099051413&txtCorreo=m.alejandro%40gmail.com&txtDireccion=prueba&txtObservacion=prueba+&listStatus=1 
+- http://localhost/FreeFood/Residentes/put
+- Los datos deben ser enviados en formato formData.
 
 **delete** este nos permite eliminar un registro, para poderla implementar seria de la siguiente forma:
-- http://localhost/FreeFood/Residentes/delete/idRegistro=1
+- http://localhost/FreeFood/Residentes/delete
+- Los datos deben ser enviados en formato formData.
 
 **Cabe destacar que los metodos post, put y delete validan de que se hagan un POST de lo contrario no se podrá hacer nada**
 
